@@ -3,7 +3,7 @@
         <li ng-repeat="(key, val) in enumItems">
             <label class="radio">
                 <input type="radio" name="checkboxlist-{{model.alias}}"
-                       value="{{key}}"
+                       value="{{val}}"
                        ng-model="model.value" />
                 {{val}}
             </label>
