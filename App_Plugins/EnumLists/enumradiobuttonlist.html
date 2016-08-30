@@ -2,8 +2,8 @@
     <ul class="unstyled">
         <li ng-repeat="(key, val) in enumItems">
             <label class="radio">
-                <input type="radio" name="checkboxlist"
-                       value="{{key}}"
+                <input type="radio" name="checkboxlist-{{model.alias}}"
+                       value="{{val}}"
                        ng-model="model.value" />
                 {{val}}
             </label>
